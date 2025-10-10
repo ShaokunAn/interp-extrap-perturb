@@ -16,8 +16,8 @@ Method: IterPert
 Model:
 - GEARS
 - Active Learning
-Publication: https://www.biorxiv.org/content/10.1101/2023.12.12.571389v1.full.pdf
-Published: false
+Publication: https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_2
+Published: true
 Task:
 - Unseen Perturbation Prediction
 - Combinatorial Effect Prediction
