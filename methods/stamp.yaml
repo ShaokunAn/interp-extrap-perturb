@@ -6,13 +6,13 @@ Description: 'STAMP is an interpretable, spatially-aware dimension reduction met
  STAMP can be extended to handle multi-sample data by adding a batch correction term (via batch-specific loading matrices)
  and to analyse time-series data by allowing gene modules to vary over time via a Gaussian process prior.'
 Inspired by:
-- Factor Analysis
 - prodLDA
 Method: STAMP
 Model:
 - Spatially-informed
 - Time-resolved
 - Graph encoder
+- Factor Analysis
 Publication: https://www.nature.com/articles/s41592-024-02463-8
 Published: true
 Task:
