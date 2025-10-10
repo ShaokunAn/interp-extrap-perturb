@@ -1,0 +1,21 @@
+Code Availability: https://github.com/JinmiaoChenLab/scTM
+Description: 'STAMP is an interpretable, spatially-aware dimension reduction method
+ that models the gene expression using Gamma Poisson likelihood, determined by a combination of latent topic proportions (logNormal)
+ ,gene modules, and background residuals. The model employs a structured regularised horseshoe prior on the gene modules to induce sparsity.
+ To incorporate spatial context, STAMP utilises a simplified graph convolutional network as its inference network.
+ STAMP can be extended to handle multi-sample data by adding a batch correction term (via batch-specific loading matrices)
+ and to analyse time-series data by allowing gene modules to vary over time via a Gaussian process prior.'
+Inspired by:
+- Factor Analysis
+- prodLDA
+Method: STAMP
+Model:
+- Spatially-informed
+- Time-resolved
+- Graph encoder
+Publication: https://www.nature.com/articles/s41592-024-02463-8
+Published: true
+Task:
+- Linear Gene Programmes
+- Unsupervised Disentanglement
+Year: 2022
