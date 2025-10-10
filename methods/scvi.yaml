@@ -6,6 +6,7 @@ Description: 'scVI is a scalable deep generative model for single-cell transcrip
  scVI served as the basis for the development of the scvi-tools ecosystem and numerous other modules for single-cell analysis.'
 Inspired by:
 - cVAE
+- ZINB-WaVE
 Method: scVI
 Model:
 - VAE
@@ -14,4 +15,4 @@ Publication: https://www.nature.com/articles/s41592-018-0229-2
 Published: true
 Task:
 - Nonlinear Gene Programmes
-Year: 2024
+Year: 2018
