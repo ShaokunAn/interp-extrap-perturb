@@ -1,17 +1,19 @@
 Code Availability: github.com/theislab/trvae
-Description: 'trVAE enhances the scGEN model by incorporating condition embeddings
-  and leveraging maximum mean discrepancy regularisation to manage distributions across
-  binary conditions. By utilizing a conditional variational autoencoder, trVAE aims
-  to create a compact and consistent representation of cross-condition distributions,
-  enhancing out-of-distribution prediction accuracy. '
+Description: 'trVAE is conditional variational autoencoder, which rather than passing one-hot encoded condition labels to its decoder,
+              it applies Maximum Mean Discrepancy regularization to the first layer of the decoder.
+              This forces the model to learn condition-invariant features,
+              enabling it to transform samples between conditions and predict OOD responses,
+              such as cell-type specific response to seen perturbations. '
 Inspired by:
-- scGen
+- DAN
+- Moment Matching Networks
 Method: trVAE
 Model:
-- VAE
+- CVAE
 Publication: https://academic.oup.com/bioinformatics/article/36/Supplement_2/i610/6055927#409207818
 Published: true
 Task:
 - Context Transfer
 - Seen Perturbation Prediction
+- Multi-component Disentanglement
 Year: 2020

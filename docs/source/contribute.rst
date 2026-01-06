@@ -29,7 +29,7 @@ Each method is stored as an **individual YAML file** in the ``methods/`` directo
       Method: Method Name                    # 🏷️ Official method name
       Year: 2024                            # 📅 Publication year
       Published: true                        # ✅ Publication status (true/false)
-      
+
       Description: |                         # 📄 Detailed description
         A comprehensive description of the method, including its approach,
         key features, and how it works. This text appears in the 
