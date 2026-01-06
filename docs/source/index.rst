@@ -1,4 +1,4 @@
-🧬 Interpretation, Extrapolation, and Perturbation of Single Cells
+Interpretation, Extrapolation, and Perturbation of Single Cells
 =====================================================================================
 
 .. raw:: html
@@ -31,99 +31,6 @@
 
    </div>
 
----
-
-📚 **A Living Catalogue of Single-Cell Perturbation Methods**
-
-Single-cell genomics is moving beyond cell atlases toward models that **interpret and extrapolate cellular responses to perturbations**. 
-This webpage lists technical details for more than **149 of these methods**. Moreover, as part of a perspective *(under review)*, 
-it aims to help researchers pick the right tool and highlight open challenges for future method advances.
-
-.. raw:: html
-
-   <div class="highlight-info">
-   <p><strong>🎯 Mission</strong>: Helping researchers navigate the rapidly evolving landscape of single-cell perturbation analysis</p>
-   </div>
-
-.. figure:: _static/overview.png
-   :scale: 40%
-   :align: center
-   :alt: Goals of Emerging Causal and Mechanistic Single-Cell Methods
-
-   🔬 **Goals of Emerging Causal and Mechanistic Single-Cell Methods**
-
----
-
-🚀 **Key Features**
----------------------
-
-.. raw:: html
-
-   <div class="grid-container">
-   <div class="grid-item">
-   <h4>🔍 <strong>Comprehensive Coverage</strong></h4>
-   <p> More than 100 curated methods from peer-reviewed papers and preprints</p>
-   </div>
-   
-   <div class="grid-item">
-   <h4>🏷️ <strong>Task Classification</strong></h4>
-   <p>Methods organized by computational tasks and applications</p>
-   </div>
-   
-   <div class="grid-item">
-   <h4>📱 <strong>Interactive Interface</strong></h4>
-   <p>Searchable, sortable tables with expandable descriptions</p>
-   </div>
-   
-   <div class="grid-item">
-   <h4>🔗 <strong>Direct Access</strong></h4>
-   <p>Quick links to publications and code repositories</p>
-   </div>
-   
-   <div class="grid-item">
-   <h4>🤝 <strong>Community-Driven</strong></h4>
-   <p>Easy contribution system for adding new methods</p>
-   </div>
-   
-   <div class="grid-item">
-   <h4>⚡ <strong>Always Current</strong></h4>
-   <p>Automated updates and continuous integration</p>
-   </div>
-   </div>
-
-   <style>
-   .grid-container {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-     gap: 1.5rem;
-     margin: 2rem 0;
-   }
-   .grid-item {
-     padding: 1.5rem;
-     border: 1px solid #ddd;
-     border-radius: 8px;
-     background: #f9f9f9;
-   }
-   .grid-item h4 {
-     margin-top: 0;
-     color: #8B0000;
-   }
-   </style>
-
----
-
-📖 **Documentation Contents**
--------------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :caption: 📚 Catalog Navigation
-
-   ⚙️ All Methods <methods>
-   ➕ Contribute <contribute>
-
----
-
 .. raw:: html
 
    <div align="center">
@@ -133,8 +40,6 @@ it aims to help researchers pick the right tool and highlight open challenges fo
    &nbsp;&nbsp;
    <a href="contribute.html" class="btn-secondary">➕ Add Your Method</a>
    </p>
-   
-   <p><em>🤝 Join the community of researchers advancing single-cell perturbation analysis!</em></p>
    </div>
 
    <style>
@@ -162,3 +67,41 @@ it aims to help researchers pick the right tool and highlight open challenges fo
      text-decoration: none;
    }
    </style>
+
+---
+
+**Documentation Contents**
+-------------------------------
+
+📚 **A Living Catalogue of Single-Cell Perturbation Methods**
+
+Single-cell genomics is moving beyond cell atlases toward models that **interpret and extrapolate cellular responses to perturbations**. 
+This webpage lists technical details for more than **149 of these methods**. Moreover, as part of a `perspective <https://doi.org/10.1038/s41576-025-00920-4>`_, 
+it aims to help researchers pick the right tool and highlight open challenges for future method advances.
+
+.. raw:: html
+
+   <div class="highlight-info">
+   <p><strong>🎯 Mission</strong>: Helping researchers navigate the rapidly evolving landscape of single-cell perturbation analysis</p>
+   </div>
+
+.. figure:: _static/overview.png
+   :scale: 40%
+   :align: center
+   :alt: An ontology for modelling alterations and response
+
+   **An ontology for modelling alterations and response**
+
+---
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 📚 Catalog Navigation
+
+   ⚙️ All Methods <methods>
+   ➕ Contribute <contribute>
+
+Citation
+--------
+
+Dimitrov*, D., Schrod*, S., Rohbeck, M., and Stegle, O. Interpretation, extrapolation and perturbation of single cells. *Nat Rev Genet* (2026). https://doi.org/10.1038/s41576-025-00920-4

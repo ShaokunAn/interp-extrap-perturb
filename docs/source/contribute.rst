@@ -13,8 +13,6 @@
 .. note::
    📋 **Quick Start**: To ensure consistency and smooth integration, please follow the guidelines below.
 
----
-
 1. ➕ Add or Update Methods
 -----------------------------
 
