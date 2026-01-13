@@ -87,3 +87,7 @@ Dimitrov*, D., Schrod*, S., Rohbeck, M., and Stegle, O. Interpretation, extrapol
 ## License
 
 MIT © 2025 Daniel Dimitrov, Stefan Schrod, Martin Rohbeck, Oliver Stegle
+
+## Funding
+
+The authors’ work was supported through state funds approved by the State Parliament of Baden-Württemberg for the Innovation Campus Health + Life Science alliance Heidelberg Mannheim, the Data Science Collaborative Research Programme 2022 by the Novo Nordisk Foundation (grant NNF22OC0076414), and the European Research Council (Synergy Grant DECODE 810296). The authors also acknowledge funding from GSK through the EMBL-GSK collaboration framework (3000038350).
